@@ -1,3 +1,18 @@
+# Smalloc
+
+This is a simple memory allocator for C programs. It is designed to be
+simple to use and to be fast. It is not designed to be thread-safe.
+
+It is an amalgamation of the Smalloc allocator designed by Andrey Rys.
+
+Only two files are needed to use this allocator:
+- smalloc.h
+- smalloc.c
+
+Thus, this make it easy to use in any project.
+
+Here's is the original README:
+```
 SMalloc -- a *static* memory allocator.
 
 SMalloc allows you to use an arbitrary memory array, which is allocated
@@ -151,3 +166,4 @@ turn it's brains insane and send a signal through optocoupler driver to a power 
 which will lead this power to you. Anything then can happen :-)
 
 For full reuse conditions see COPYRIGHT file.
+```
